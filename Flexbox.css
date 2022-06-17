@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+main {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 70%;
+  margin: 10rem;
+  margin-right: 2rem;
+  height: 65vh;
+  margin-top: 13rem;
+}
+
+.first-main {
+  background-color: darkorange;
+  width: 40%;
+  text-align: left;
+  padding: 2em;
+  color: whitesmoke;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.second-main {
+  background-color: teal;
+  width: 40%;
+  text-align: left;
+  padding: 2em;
+  color: whitesmoke;
+}
+
+.third-main {
+  background-color: darkslategrey;
+  width: 40%;
+  text-align: left;
+  padding: 2em;
+  color: whitesmoke;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+h1 {
+  margin-bottom: 3rem;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  word-spacing: 1px;
+}
+
+.first-main button {
+  margin-top: 6rem;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 25px;
+  color: darkorange;
+  border: solid darkorange;
+}
+.second-main button {
+  margin-top: 7rem;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 25px;
+  color: teal;
+  border: solid teal;
+}
+
+.third-main button {
+  margin-top: 7rem;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 25px;
+  color: darkslategrey;
+  border: solid darkslategrey;
+}
+
+img {
+  margin-bottom: 4px;
+}
